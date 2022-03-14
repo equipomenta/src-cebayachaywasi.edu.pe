@@ -1,0 +1,112 @@
+.text-justify{
+    text-align: justify !important;
+}
+.sombra{
+    text-shadow: -1px 0 black, 0 1px black,
+    3px 0 black, 0 -1px black
+}
+.fondo {
+    background-image: url("../image/modalidad-virtual.jpeg");
+/*    background-color: rgba(0, 0, 0, 0.84);*/
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+@media  (min-width: 900px) {
+    .fondo {
+        background-image: url("../image/modalidad-virtual.jpeg");
+    /*    background-color: rgba(0, 0, 0, 0.84);*/
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }  
+}
+.fondo-negro{
+    background-color: rgba(0, 0, 0, 0.49);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.fondo-1 {
+    background-image: url("../image/inicio-yachay-wasi.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+.fondo-2 {
+    background-image: url("../image/modalidad-virtual.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+@media  (min-width: 900px) {
+    .fondo-2 {
+        background-image: url("../image/modalidad-virtual.jpeg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+}
+.fondo-3 {
+    background-image: url("../image/modalidad-semi-presencial.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 20%;
+}
+@media  (min-width: 900px) {
+    .fondo-3 {
+        background-image: url("../image/modalidad-semi-presencial.jpeg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.fondo-login {
+    background-image: url("../image/fondo-1.png");
+    background-color: transparent;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .text-login {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+.linea {
+    height: 2px;
+    background-color: black;
+}
+.text-justify{
+    text-align: justify;
+}

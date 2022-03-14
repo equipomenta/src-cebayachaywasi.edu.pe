@@ -1,0 +1,18 @@
+/* Border */
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: black !important;
+  }
+  /* Font color */
+  input.mat-input-element {
+    color: black !important;
+  }
+
+  .ng-tns-c67-0 .ng-star-inserted{
+    margin-top: 10px !important;
+    margin-left: 5px !important;
+}
+
+#mat-form-field-label-1{
+    margin-top: 10px !important;
+    margin-left: 5px !important;
+}

@@ -1,0 +1,14 @@
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-verde{
+background-color: #14fa61;
+}
+
+.bg-image {
+  background-image: url('../../assets/image/fondo-2.jpg');
+  background-size: cover;
+  background-position: center center;
+}

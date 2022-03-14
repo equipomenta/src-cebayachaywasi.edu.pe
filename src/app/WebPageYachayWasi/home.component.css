@@ -1,0 +1,31 @@
+.border-1{
+    border-radius: 10px;
+}
+.py-6{
+    padding-top: 44%;
+    padding-bottom: 36%;
+}
+.filto-1{
+    filter:brightness(0.3) !important; 
+    z-index: 0;
+  }
+  .carrousel-top{
+    top: 33%;
+    z-index: 1;
+  }
+  @media only screen and (max-width: 600px) {
+    .carrousel-top {
+      top: 20% !important;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .carrousel-top {
+      top: 30% !important;
+    }
+  }
+  @media only screen and (max-width: 1024) {
+    .carrousel-top {
+      top: 30% !important;
+    }
+  }

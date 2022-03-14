@@ -1,0 +1,54 @@
+.maintxt {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100%;
+  }
+
+  /* Centered text */
+.centeredtext {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    
+  }
+
+  a:not(.btn):not(.badge):hover, a:not(.btn):not(.badge):focus, a:not(.btn):not(.badge):active{
+    color: white !important;
+  }
+
+  @media only screen and (min-width: 0px) and (max-width: 1024px) {
+    .responsiveapp {
+      height: 600px !important;
+    }
+  }
+  
+    @media only screen and (min-width: 1025px) and (max-width: 1500px) {
+      .responsiveapp {
+        height: 700px !important;
+      }
+    }
+
+    @media only screen and (min-width: 1500px) and (max-width: 2000px) {
+      .responsiveapp {
+        height: 800px !important;
+      }
+    }  
+
+.fixed-top-suizo{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 50px;
+    z-index: 1030;  
+}
+
+.fixed-top-suizo-panel-visible{
+  visibility: visible !important;
+}
+
+.black-fore-color{
+  color: black !important;
+}

@@ -1,0 +1,31 @@
+#navbar-1 ul .nav-item a{
+  font-weight: bold;
+  color: #2D8415;
+}
+#navbar-1 ul .nav-item a:hover{
+background-color: #F0B800;
+color: #ffffff;
+font-weight: normal !important;
+}
+#navbar-1 ul .nav-item a:active{
+  background-color: #2D8415;
+  color: #ffffff;
+  font-weight: normal !important;
+  }
+  #navbar-1 ul .nav-item a:focus{
+    background-color: #2D8415;
+    color: #ffffff;
+    font-weight: normal !important;
+    }
+.btn-1{
+  background-color: #2D8415;
+  display: inline-block;
+  border: 4px solid #F0B800;
+  color: white;
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+.btn-1:hover{
+  font-weight: 900;
+}

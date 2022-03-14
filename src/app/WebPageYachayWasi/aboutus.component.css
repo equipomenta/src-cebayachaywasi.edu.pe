@@ -1,0 +1,24 @@
+.bg-verde {
+  background-color: #14ee5d94 !important;
+}
+
+.box {
+  padding: 60px 0px;
+}
+
+.box-part {
+  background: #08411bb4;
+  border-radius: 0;
+  padding: 60px 10px;
+  margin: 30px 0px;
+  color: white;
+}
+
+.text {
+  padding: 3% 10%;
+  letter-spacing: -0.5px;
+}
+
+.fa {
+  color: #4183D7;
+}
